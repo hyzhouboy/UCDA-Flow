@@ -9,11 +9,11 @@ We provide our collected real foggy images, namely UCDA-Fog, seeing as follow:
 
 
 
-*Citation*
-@article{zhou2023unsupervised,
-  title={Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow},
-  author={Zhou, Hanyu and Chang, Yi and Yan, Wending and Yan, Luxin},
-  journal={arXiv e-prints},
-  pages={arXiv--2303},
-  year={2023}
+# Citation
+@article{zhou2023unsupervised, <br />
+  title={Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow}, <br />
+  author={Zhou, Hanyu and Chang, Yi and Yan, Wending and Yan, Luxin}, <br />
+  journal={arXiv e-prints}, <br />
+  pages={arXiv--2303}, <br />
+  year={2023} <br />
 }
