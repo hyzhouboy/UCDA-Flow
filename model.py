@@ -86,7 +86,8 @@ class Model(object):
         self.inv_K_ = torch.from_numpy(inv_K).unsqueeze(dim=0)
         self.inv_K = torch.cat([self.inv_K_, self.inv_K_], 0).cuda()
         # print()
-
+    
+    # Note that: when you use clean images without GT for training the network, you need to replace the flow loss with photometric loss.
     # train depth and flow network
     def stage_1_train(self):
         # dataset_loader
