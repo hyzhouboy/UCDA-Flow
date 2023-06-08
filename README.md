@@ -6,6 +6,8 @@ Testing refers for demo.py.
 
 We provide our collected real foggy images, namely [UCDA-Fog](https://drive.google.com/file/d/1V41omr1_k_6OcVWfAhkvzbgSaUHM26tj/view?usp=sharing) dataset.
 
+Moreover, we also provide the [pre-trained model](https://drive.google.com/file/d/1osPP1HAA-onkwmDMLUW_s95iEGaslA7R/view?usp=drive_link) for testing.
+
 
 
 # Citation
