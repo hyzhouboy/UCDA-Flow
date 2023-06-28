@@ -11,9 +11,10 @@ Moreover, we also provide the [pre-trained model](https://drive.google.com/file/
 
 
 # Citation
-@article{zhou2023unsupervised, <br />
-  title={Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow}, <br />
-  author={Zhou, Hanyu and Chang, Yi and Yan, Wending and Yan, Luxin}, <br />
-  journal={arXiv preprint arXiv:2303.07564}, <br />
+@inproceedings{zhou2023unsupervised,
+  title={Unsupervised Cumulative Domain Adaptation for Foggy Scene Optical Flow},
+  author={Zhou, Hanyu and Chang, Yi and Yan, Wending and Yan, Luxin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={9569--9578},
   year={2023}
 }
