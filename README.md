@@ -38,7 +38,9 @@ conda create -n UCDA-Flow python=3.8
 conda activate UCDA-Flow
 
 conda install pytorch=1.6.0 torchvision=0.7.0 cudatoolkit=10.1 matplotlib tensorboard scipy pillow opencv -c pytorch
-pip install absl-py==0.8.0 astor==0.8.0 bleach==1.5.0 future==0.17.1 gast==0.2.2 google-pasta==0.1.7 grpcio==1.23.0 h5py==2.9.0 html5lib==0.9999999 keras-applications==1.0.8 keras-preprocessing==1.1.0 markdown==3.1.1 protobuf==3.9.1 tb-nightly==1.15.0a20190902 termcolor==1.1.0 werkzeug==0.15.5 wrapt==1.11.2
+pip install absl-py==0.8.0 astor==0.8.0 bleach==1.5.0 future==0.17.1 gast==0.2.2 google-pasta==0.1.7 grpcio==1.23.0
+pip install h5py==2.9.0 html5lib==0.9999999 keras-applications==1.0.8 keras-preprocessing==1.1.0 markdown==3.1.1
+pip install protobuf==3.9.1 tb-nightly==1.15.0a20190902 termcolor==1.1.0 werkzeug==0.15.5 wrapt==1.11.2
 ```
 
 ## Preparing Dataset
