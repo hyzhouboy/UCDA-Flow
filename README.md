@@ -29,6 +29,18 @@ $^✉$ Corresponding Author.
 
 2023.02.28: Our paper is accepted by CVPR 2023.
 
+## Environmental Setups
+
+```
+git clone https://github.com/hyzhouboy/UCDA-Flow.git
+cd UCDA-Flow
+conda create -n UCDA-Flow python=3.8
+conda activate UCDA-Flow
+
+conda install pytorch=1.6.0 torchvision=0.7.0 cudatoolkit=10.1 matplotlib tensorboard scipy pillow opencv -c pytorch
+pip install absl-py==0.8.0 astor==0.8.0 bleach==1.5.0 future==0.17.1 gast==0.2.2 google-pasta==0.1.7 grpcio==1.23.0 h5py==2.9.0 html5lib==0.9999999 keras-applications==1.0.8 keras-preprocessing==1.1.0 markdown==3.1.1 protobuf==3.9.1 tb-nightly==1.15.0a20190902 termcolor==1.1.0 werkzeug==0.15.5 wrapt==1.11.2
+```
+
 ## Preparing Dataset
 
 We first should prepare the pre-trained datasets, including clean images, synthetic foggy images and real foggy images. For the clean images, we can obtain them from Internet and open source datasets (*e.g.*, KITTI). For the synthetic data, we refer to the code from the tool.py file to generate the synthetic foggy images:
@@ -109,6 +121,18 @@ python -u demo.py --model model/ucda_flow_realfog.pth --path /path/your_foggy_im
 ```
 
 ![block](assets/figure_3.png)
+
+## (Optional) Efficient Implementation
+
+You can optionally use our alternate (efficent) implementation by compiling the provided cuda extension:
+
+```
+cd alt_cuda_corr
+python setup.py install
+cd ..
+```
+
+and running demo.py and with the `--alternate_corr` flag Note, which improves the inference efficiency.
 
 ## Citation
 
