@@ -69,7 +69,7 @@ def gemerate_haze(rgb, depth, k, beta):
     return fog_image
 ```
 
-Besides, we also need to self-collect the real foggy images for training. Here, we choose the KITTI as clean version and use the above strategy to generate the corresponding synthetic foggy images. We provide the real foggy dataset [UCDA-Fog](https://drive.google.com/file/d/19niZjG_IvC0NZUDZ2ELVlt73BdvHHfdn/view?usp=sharing). 
+Besides, we also need to self-collect the real foggy images for training. Here, we choose the KITTI as clean version and use the above strategy to generate the corresponding synthetic foggy images. We provide the real foggy dataset [UCDA-Fog](https://huggingface.co/datasets/HYzhou123/Real-Weather_World). 
 
 ## Training
 
